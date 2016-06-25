@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.18a
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xiao AutoBVT, Microsoft, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.18a
+Toolchain Path:  D:\keil5a\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18a
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.19.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\STM32³ÌÐò\Smart_Bag\Smart_1\Project\RVMDK(uv4)\iSO-STM32.uvprojx
+Project File Date:  04/12/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'D:\keil5a\ARM\ARMCC\Bin'
+Build target 'USART'
+compiling PWM_LED.c...
+..\..\User\PWM_LED.h(4): warning:  #1295-D: Deprecated declaration TIM3_Config - give arg types
+  void TIM3_Config();
+..\..\User\PWM_LED.h(5): warning:  #1295-D: Deprecated declaration PWM_GPIO_Config - give arg types
+  void PWM_GPIO_Config();
+..\..\User\PWM_LED.h(6): warning:  #1295-D: Deprecated declaration TIM3_PWM_Config - give arg types
+  void TIM3_PWM_Config();
+..\..\User\PWM_LED.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\User\PWM_LED.c(23): error:  #268: declaration may not appear after executable statement in block
+   GPIO_InitTypeDef GPIO_InitStructure;
+..\..\User\PWM_LED.c(33): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\User\PWM_LED.c: 5 warnings, 1 error
+compiling LD3320.c...
+..\..\User\PWM_LED.h(4): warning:  #1295-D: Deprecated declaration TIM3_Config - give arg types
+  void TIM3_Config();
+..\..\User\PWM_LED.h(5): warning:  #1295-D: Deprecated declaration PWM_GPIO_Config - give arg types
+  void PWM_GPIO_Config();
+..\..\User\PWM_LED.h(6): warning:  #1295-D: Deprecated declaration TIM3_PWM_Config - give arg types
+  void TIM3_PWM_Config();
+..\..\User\PWM_LED.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\User\LD3320\LD3320.c(249): warning:  #177-D: function "Off_LED" was declared but never referenced
+  static void Off_LED(void)
+..\..\User\LD3320\LD3320.c: 5 warnings, 0 errors
+"..\..\Output\Template.axf" - 1 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\STM32³ÌÐò\Smart_Bag\Smart_1\Project\RVMDK(uv4)\RTE
+  D:\keil5a\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\keil5a\ARM\PACK\Keil\STM32F1xx_DFP\2.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
