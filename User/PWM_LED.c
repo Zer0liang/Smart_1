@@ -3,7 +3,7 @@ void TIM3_Config()
 {
 TIM_TimeBaseInitTypeDef TIM_TimBaseStructure;
 TIM_OCInitTypeDef TIM_OCInitStructure;
-TIM_TimBaseStructure.TIM_Period=99;
+//TIM_TimBaseStructure.TIM_Period=99;
 TIM_TimBaseStructure.TIM_Prescaler=72;
 TIM_TimBaseStructure.TIM_ClockDivision=TIM_CKD_DIV1;
 TIM_TimBaseStructure.TIM_CounterMode=TIM_CounterMode_Up;
